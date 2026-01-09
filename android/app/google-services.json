@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "738334950926",
+    "project_id": "cropkart-6461c",
+    "storage_bucket": "cropkart-6461c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738334950926:android:b2bae1cf0d368cfd90de5f",
+        "android_client_info": {
+          "package_name": "com.example.cropkart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2BxAGj4ghwZnhDbXwA5ZjnBQLxDd8qmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
