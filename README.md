@@ -49,54 +49,82 @@ Farm Mate is a Flutter-based mobile application that bridges the gap between far
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/fp.jpg" width="200px" alt="Splash Screen"/>
+      <img src="screenshots/fp.jpg" width="200px"/>
       <br />
       <sub><b>Splash Screen</b></sub>
     </td>
     <td align="center">
-      <img src="screenshots/login.png" width="200px" alt="Login"/>
+      <img src="screenshots/f_l.jpg" width="200px" />
       <br />
       <sub><b>Login</b></sub>
     </td>
     <td align="center">
-      <img src="screenshots/signup.png" width="200px" alt="Sign Up"/>
+      <img src="screenshots/f_sg.jpg" width="200px" />
       <br />
       <sub><b>Sign Up</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="screenshots/farmer_dashboard.png" width="200px" alt="Farmer Dashboard"/>
+      <img src="screenshots/b_l.jpg" width="200px" />
       <br />
       <sub><b>Farmer Dashboard</b></sub>
     </td>
     <td align="center">
-      <img src="screenshots/add_crop.png" width="200px" alt="Add Crop"/>
+      <img src="screenshots/b_sg.jpg" width="200px"/>
       <br />
       <sub><b>Add Crop</b></sub>
     </td>
     <td align="center">
-      <img src="screenshots/buyer_dashboard.png" width="200px" alt="Buyer Dashboard"/>
+      <img src="screenshots/farmer_dashboard.jpg" width="200px" />
       <br />
       <sub><b>Buyer Dashboard</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="screenshots/crop_list.png" width="200px" alt="Crop Listings"/>
+      <img src="screenshots/f_hs.jpg" width="200px" />
       <br />
       <sub><b>Crop Listings</b></sub>
     </td>
     <td align="center">
-      <img src="screenshots/map_view.png" width="200px" alt="Map View"/>
+      <img src="screenshots/f_as.jpg" width="200px" />
       <br />
       <sub><b>Location Map</b></sub>
     </td>
     <td align="center">
-      <img src="screenshots/weather.png" width="200px" alt="Weather"/>
+      <img src="screenshots/f_ad2.jpg" width="200px" />
       <br />
       <sub><b>Weather Updates</b></sub>
     </td>
+  </tr>
+   <tr>
+    <td align="center">
+      <img src="screenshots/b_hp.jpg" width="200px" />
+      <br />
+      <sub><b>Farmer Dashboard</b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/b_ds.jpg" width="200px"/>
+      <br />
+      <sub><b>Add Crop</b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/b_d.jpg" width="200px" />
+      <br />
+      <sub><b></b></sub>
+    </td>
+  </tr>
+   <tr>
+    <td align="center">
+      <img src="screenshots/weather_db.jpg" width="200px" />
+      <br />
+      <sub><b></b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/weather_f.jpg" width="200px"/>
+      <br />
+      
   </tr>
 </table>
 
