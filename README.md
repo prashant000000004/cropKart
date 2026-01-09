@@ -44,6 +44,61 @@ Farm Mate is a Flutter-based mobile application that bridges the gap between far
 | **Weather Animation** | Real-time weather data with visual effects |
 
 ---
+## 📱 App Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/splash_screen.png" width="200px" alt="Splash Screen"/>
+      <br />
+      <sub><b>Splash Screen</b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/login.png" width="200px" alt="Login"/>
+      <br />
+      <sub><b>Login</b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/signup.png" width="200px" alt="Sign Up"/>
+      <br />
+      <sub><b>Sign Up</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/farmer_dashboard.png" width="200px" alt="Farmer Dashboard"/>
+      <br />
+      <sub><b>Farmer Dashboard</b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/add_crop.png" width="200px" alt="Add Crop"/>
+      <br />
+      <sub><b>Add Crop</b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/buyer_dashboard.png" width="200px" alt="Buyer Dashboard"/>
+      <br />
+      <sub><b>Buyer Dashboard</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/crop_list.png" width="200px" alt="Crop Listings"/>
+      <br />
+      <sub><b>Crop Listings</b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/map_view.png" width="200px" alt="Map View"/>
+      <br />
+      <sub><b>Location Map</b></sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/weather.png" width="200px" alt="Weather"/>
+      <br />
+      <sub><b>Weather Updates</b></sub>
+    </td>
+  </tr>
+</table>
 
 ## 📋 Prerequisites
 
