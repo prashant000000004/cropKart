@@ -147,7 +147,7 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/yourusername/cropkart.git
-cd corpkart
+cd cropkart
 ```
 
 ### 2️⃣ Install Dependencies
