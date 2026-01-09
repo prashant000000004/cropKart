@@ -1,4 +1,4 @@
-# 🌾 Farm Mate
+# 🌾 CropKart
 
 > **Connecting Farmers with Businesses - Direct Crop Sales Made Simple**
 
@@ -63,8 +63,8 @@ Before you begin, ensure you have the following installed:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/farmmate.git
-cd farmmate
+git clone https://github.com/yourusername/cropkart.git
+cd corpkart
 ```
 
 ### 2️⃣ Install Dependencies
@@ -195,7 +195,7 @@ Future<QuerySnapshot> getCrops() async {
 ## 🏗️ Project Architecture
 
 ```
-farmmate/
+cropkart/
 ├── lib/
 │   ├── main.dart
 │   ├── ApiKey.dart
@@ -233,10 +233,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Amogh Reddy KB**
+**Prashant Yadav**
 
-- Email: amoghreddykb1@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: prshntydvpvt@gmail.com
+- GitHub: [@Prashant Yadav](https://github.com/prashant000000004)
 
 ---
 
@@ -248,11 +248,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - All contributors who help improve Farm Mate
 
 ---
-
-<div align="center">
-
-**Made with ❤️ for Farmers and Businesses**
-
-If you find this project helpful, please consider giving it a ⭐!
-
-</div>
