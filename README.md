@@ -49,7 +49,7 @@ Farm Mate is a Flutter-based mobile application that bridges the gap between far
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/splash_screen.png" width="200px" alt="Splash Screen"/>
+      <img src="screenshots/fp.jpg" width="200px" alt="Splash Screen"/>
       <br />
       <sub><b>Splash Screen</b></sub>
     </td>
