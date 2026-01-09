@@ -51,63 +51,63 @@ Farm Mate is a Flutter-based mobile application that bridges the gap between far
     <td align="center">
       <img src="screenshots/fp.jpg" width="200px"/>
       <br />
-      <sub><b>Splash Screen</b></sub>
+      <sub><b> </b></sub>
     </td>
     <td align="center">
       <img src="screenshots/f_l.jpg" width="200px" />
       <br />
-      <sub><b>Login</b></sub>
+      <sub><b></b></sub>
     </td>
     <td align="center">
       <img src="screenshots/f_sg.jpg" width="200px" />
       <br />
-      <sub><b>Sign Up</b></sub>
+      <sub><b> </b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="screenshots/b_l.jpg" width="200px" />
       <br />
-      <sub><b>Farmer Dashboard</b></sub>
+      <sub><b> </b></sub>
     </td>
     <td align="center">
       <img src="screenshots/b_sg.jpg" width="200px"/>
       <br />
-      <sub><b>Add Crop</b></sub>
+      <sub><b> </b></sub>
     </td>
     <td align="center">
       <img src="screenshots/farmer_dashboard.jpg" width="200px" />
       <br />
-      <sub><b>Buyer Dashboard</b></sub>
+      <sub><b> </b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="screenshots/f_hs.jpg" width="200px" />
       <br />
-      <sub><b>Crop Listings</b></sub>
+      <sub><b> </b></sub>
     </td>
     <td align="center">
       <img src="screenshots/f_as.jpg" width="200px" />
       <br />
-      <sub><b>Location Map</b></sub>
+      <sub><b> </b></sub>
     </td>
     <td align="center">
       <img src="screenshots/f_ad2.jpg" width="200px" />
       <br />
-      <sub><b>Weather Updates</b></sub>
+      <sub><b> </b></sub>
     </td>
   </tr>
    <tr>
     <td align="center">
       <img src="screenshots/b_hp.jpg" width="200px" />
       <br />
-      <sub><b>Farmer Dashboard</b></sub>
+      <sub><b> </b></sub>
     </td>
     <td align="center">
       <img src="screenshots/b_ds.jpg" width="200px"/>
       <br />
-      <sub><b>Add Crop</b></sub>
+      <sub><b></b></sub>
     </td>
     <td align="center">
       <img src="screenshots/b_d.jpg" width="200px" />
