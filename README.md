@@ -2,7 +2,7 @@
 
 > **Connecting Farmers with Businesses - Direct Crop Sales Made Simple**
 
-Farm Mate is a Flutter-based mobile application that bridges the gap between farmers and businesses, enabling direct crop sales without intermediaries. Built with modern technologies and real-time capabilities, Farm Mate streamlines agricultural commerce.
+CropKart is a Flutter-based mobile application that bridges the gap between farmers and businesses, enabling direct crop sales without intermediaries. Built with modern technologies and real-time capabilities, Farm Mate streamlines agricultural commerce.
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.5.4+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
