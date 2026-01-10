@@ -49,7 +49,7 @@ CropKart is a Flutter-based mobile application that bridges the gap between farm
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/fp.jpg" width="200px"/>
+      <img src="screenshots/welcome.jpg" width="200px"/>
       <br />
       <sub><b> </b></sub>
     </td>
