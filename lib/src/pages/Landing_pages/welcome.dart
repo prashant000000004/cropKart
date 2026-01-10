@@ -43,7 +43,7 @@ class _welcomeState extends State<welcome> {
               ),
               SizedBox(height: 10),
               Text(
-                "FarmMate",
+                "CropKart",
                 style: TextStyle(
                   fontSize: 40,
                   color: Color.fromRGBO(51, 114, 51, 1.0),
