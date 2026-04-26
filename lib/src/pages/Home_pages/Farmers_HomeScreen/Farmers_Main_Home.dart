@@ -1,5 +1,6 @@
 import 'package:cropkart/src/pages/Home_pages/Farmers_HomeScreen/FarmerWeather.dart';
 import 'package:cropkart/src/pages/Home_pages/Farmers_HomeScreen/Farmer_HomeScreen.dart';
+import 'package:cropkart/src/pages/Home_pages/Farmers_HomeScreen/Farmer_OrdersScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,7 @@ class _FarmersMainHomeState extends State<FarmersMainHome> {
   final List<Widget> bottomNaviPages = [
     const FarmerHomescreen(),
     const FarmerAddscreen(),
+    const FarmerOrdersScreen(),
     const Farmerweather(),
   ];
 
@@ -30,11 +32,16 @@ class _FarmersMainHomeState extends State<FarmersMainHome> {
         children: bottomNaviPages,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.plus),
             label: "Add",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.shopping_bag),
+            label: "Orders",
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.cloud),

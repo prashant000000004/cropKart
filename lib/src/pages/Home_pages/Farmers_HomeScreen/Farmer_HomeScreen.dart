@@ -389,9 +389,11 @@ class _FarmerHomescreenState extends State<FarmerHomescreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Rating: ${crop['rating']}"),
-                            Text("Farmer: ${crop['farmerName']}"),
+                            Text("Farmer: ${crop['FarmerName']}"),
                             Text("Cost Per Kg: ${crop['costPerKg']}"),
                             Text("Uploaded: ${crop['uploadDate']}"),
+                            const SizedBox(height: 6),
+                            _buildAvailabilityChip(crop['availability']?.toString() ?? '0'),
                           ],
                         ),
                         trailing: Row(
@@ -419,6 +421,46 @@ class _FarmerHomescreenState extends State<FarmerHomescreen> {
                   );
                 },
               ),
+    );
+  }
+
+  Widget _buildAvailabilityChip(String availability) {
+    double qty = 0;
+    try {
+      String cleaned = availability.replaceAll(RegExp(r'[^0-9.]'), '');
+      qty = double.tryParse(cleaned) ?? 0;
+    } catch (_) {}
+
+    bool isSoldOut = qty <= 0;
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+      decoration: BoxDecoration(
+        color: isSoldOut ? Colors.red.shade50 : const Color.fromRGBO(51, 114, 51, 0.1),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(
+          color: isSoldOut ? Colors.red.shade300 : const Color.fromRGBO(51, 114, 51, 0.5),
+        ),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(
+            isSoldOut ? Icons.remove_shopping_cart : Icons.inventory_2,
+            size: 14,
+            color: isSoldOut ? Colors.red : const Color.fromRGBO(51, 114, 51, 1.0),
+          ),
+          const SizedBox(width: 4),
+          Text(
+            isSoldOut ? "Sold Out" : "Stock: ${qty.toStringAsFixed(1)} Kg",
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.bold,
+              color: isSoldOut ? Colors.red : const Color.fromRGBO(51, 114, 51, 1.0),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
