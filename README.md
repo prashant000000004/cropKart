@@ -166,46 +166,46 @@ Buyer notified (Delivered) ✅
     <td align="center">
       <img src="screenshots/crop_detail.jpg" width="200px"/>
       <br />
-      <sub><b>Crop Detail — Buy Now</b></sub>
+      <sub><b></b></sub>
     </td>
     <td align="center">
       <img src="screenshots/farmer_dashboard.jpg" width="200px" />
       <br />
-      <sub><b>Farmer Dashboard</b></sub>
+      <sub><b></b></sub>
     </td>
     <td align="center">
       <img src="screenshots/crop_orders_farmer.jpg" width="200px" />
       <br />
-      <sub><b>Crop Orders (Farmer View)</b></sub>
+      <sub><b></b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="screenshots/buyer_dashboard.jpg" width="200px" />
       <br />
-      <sub><b>Buyer Dashboard — Browse Crops</b></sub>
+      <sub><b></b></sub>
     </td>
     <td align="center">
       <img src="screenshots/farmer_dashboard_2.jpg" width="200px"/>
       <br />
-      <sub><b>Farmer Dashboard — Stock View</b></sub>
+      <sub><b></b></sub>
     </td>
     <td align="center">
       <img src="screenshots/buy_bottom_sheet.jpg" width="200px" />
       <br />
-      <sub><b>Buy Crop — Select Quantity & Total Cost</b></sub>
+      <sub><b></b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="screenshots/purchase_success.jpg" width="200px" />
       <br />
-      <sub><b>Purchase Successful — Stock Updated</b></sub>
+      <sub><b></b></sub>
     </td>
     <td align="center">
       <img src="screenshots/my_orders_buyer.jpg" width="200px" />
       <br />
-      <sub><b>My Orders — Buyer Order Tracking</b></sub>
+      <sub><b></b></sub>
     </td>
   </tr>
 </table>
