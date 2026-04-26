@@ -23,10 +23,7 @@ class _BuyerMainHomeState extends State<BuyerMainHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: IndexedStack(
-        index: _currentIndex,
-        children: _pages,
-      ),
+      body: IndexedStack(index: _currentIndex, children: _pages),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: (index) {
@@ -238,7 +235,8 @@ class _BuyerBrowsePage extends StatelessWidget {
 
                   // Parse availability
                   double availability = _parseAvailability(
-                      crop["Availability"]?.toString() ?? "0");
+                    crop["Availability"]?.toString() ?? "0",
+                  );
                   bool isSoldOut = availability <= 0;
 
                   return GestureDetector(
@@ -246,10 +244,11 @@ class _BuyerBrowsePage extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => CropDetailsPage(
-                            cropDetails: crop,
-                            cropDocId: docId,
-                          ),
+                          builder:
+                              (context) => CropDetailsPage(
+                                cropDetails: crop,
+                                cropDocId: docId,
+                              ),
                         ),
                       );
                     },
@@ -271,10 +270,15 @@ class _BuyerBrowsePage extends StatelessWidget {
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 18,
-                                    color: isSoldOut
-                                        ? Colors.grey
-                                        : const Color.fromRGBO(
-                                            51, 114, 51, 1.0),
+                                    color:
+                                        isSoldOut
+                                            ? Colors.grey
+                                            : const Color.fromRGBO(
+                                              51,
+                                              114,
+                                              51,
+                                              1.0,
+                                            ),
                                   ),
                                   maxLines: 2,
                                   overflow: TextOverflow.ellipsis,
@@ -283,9 +287,10 @@ class _BuyerBrowsePage extends StatelessWidget {
                                 Text(
                                   "₹${crop["CostPerKg"] ?? "N/A"}/Kg",
                                   style: TextStyle(
-                                    color: isSoldOut
-                                        ? Colors.grey
-                                        : Colors.black87,
+                                    color:
+                                        isSoldOut
+                                            ? Colors.grey
+                                            : Colors.black87,
                                     fontWeight: FontWeight.w600,
                                     fontSize: 15,
                                   ),
@@ -294,9 +299,10 @@ class _BuyerBrowsePage extends StatelessWidget {
                                 Text(
                                   "Rating: ${crop["CropRating"] ?? "N/A"} ⭐",
                                   style: TextStyle(
-                                    color: isSoldOut
-                                        ? Colors.grey
-                                        : Colors.black54,
+                                    color:
+                                        isSoldOut
+                                            ? Colors.grey
+                                            : Colors.black54,
                                     fontSize: 13,
                                   ),
                                 ),
@@ -306,12 +312,19 @@ class _BuyerBrowsePage extends StatelessWidget {
                                 Container(
                                   width: double.infinity,
                                   padding: const EdgeInsets.symmetric(
-                                      vertical: 6, horizontal: 8),
+                                    vertical: 6,
+                                    horizontal: 8,
+                                  ),
                                   decoration: BoxDecoration(
-                                    color: isSoldOut
-                                        ? Colors.red.shade50
-                                        : const Color.fromRGBO(
-                                            51, 114, 51, 0.1),
+                                    color:
+                                        isSoldOut
+                                            ? Colors.red.shade50
+                                            : const Color.fromRGBO(
+                                              51,
+                                              114,
+                                              51,
+                                              0.1,
+                                            ),
                                     borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: Row(
@@ -321,10 +334,15 @@ class _BuyerBrowsePage extends StatelessWidget {
                                             ? Icons.remove_shopping_cart
                                             : Icons.inventory_2,
                                         size: 16,
-                                        color: isSoldOut
-                                            ? Colors.red
-                                            : const Color.fromRGBO(
-                                                51, 114, 51, 1.0),
+                                        color:
+                                            isSoldOut
+                                                ? Colors.red
+                                                : const Color.fromRGBO(
+                                                  51,
+                                                  114,
+                                                  51,
+                                                  1.0,
+                                                ),
                                       ),
                                       const SizedBox(width: 4),
                                       Expanded(
@@ -335,10 +353,15 @@ class _BuyerBrowsePage extends StatelessWidget {
                                           style: TextStyle(
                                             fontSize: 12,
                                             fontWeight: FontWeight.bold,
-                                            color: isSoldOut
-                                                ? Colors.red
-                                                : const Color.fromRGBO(
-                                                    51, 114, 51, 1.0),
+                                            color:
+                                                isSoldOut
+                                                    ? Colors.red
+                                                    : const Color.fromRGBO(
+                                                      51,
+                                                      114,
+                                                      51,
+                                                      1.0,
+                                                    ),
                                           ),
                                         ),
                                       ),
